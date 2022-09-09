@@ -4,6 +4,14 @@ author: "MP Etienne et al"
 date: "9/2/2021"
 output: html_document
 ---
+```{r premiergraph}
+library(palmerpenguins)
+library(tidyverse)
+data("penguins")
+
+
+
+```
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
