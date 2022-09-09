@@ -9,8 +9,7 @@ library(palmerpenguins)
 library(tidyverse)
 data("penguins")
 
-
-
+# little comment
 ```
 
 ```{r setup, include=FALSE}
@@ -23,7 +22,9 @@ library(tidyverse)
 
 data("penguins")
 penguins %>%
-  ggplot() + aes(x = bill_length_mm, y= bill_depth_mm) + geom_point()
+  ggplot() +
+  aes(x = bill_length_mm, y = bill_depth_mm) +
+  geom_point()
 ```
 
 
@@ -43,6 +44,8 @@ library(tidyverse)
 data("penguins")
 
 penguins %>%
-  ggplot() + aes(x=bill_length_mm, y=bill_depth_mm) + geom_point()
+  ggplot() +
+  aes(x = bill_length_mm, y = bill_depth_mm) +
+  geom_point()
 ```
 
