@@ -27,3 +27,12 @@ install.packages('palmerpenguins)
 
 L'objectif de cette classe est de proposer des représentations graphiques de ces données en collaborant à l'aide de l'outil git.
 
+```{r}
+library(palmerpenguins)
+library(tidyverse)
+data("penguins")
+
+penguins %>%
+  ggplot() + aes(x=bill_length_mm, y=bill_depth_mm) + geom_point()
+```
+
